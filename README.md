@@ -1,4 +1,4 @@
-# pro-builder-java
+# prov-builder-java
 
 ## Description
 This is a non-executable jar with zero dependencies. The goal of this repo is to provide developers the Java classes they need to start building provenance objects and publishing Kafka for consumption by the prov-capture (https://github.com/Prov-Framework/prov-capture) repo. The prov capture repo uses this jar for deserializing JSON coming from Kafka, so using this jar or at least copying these classes into your code is the best way to ensure compatibility.
