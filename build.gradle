@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'com.provframework'
+version = '1.0.0'
+description = 'Service for building provenance objects in Java.'
+
+jar {
+    manifest {
+        attributes(
+            'Implementation-Title': 'prov-builder-java',
+            'Implementation-Version': project.version
+        )
+    }
+}
